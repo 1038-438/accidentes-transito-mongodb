@@ -1,1 +1,7 @@
+use("accidentes_transito_db");
 
+// Verificar cantidad de registros cargados
+db.vehiculos_involucrados.countDocuments();
+
+// Mostrar primeros registros
+db.vehiculos_involucrados.find().limit(10);
