@@ -1,1 +1,27 @@
+Ejercicios desarrollados en MongoDB
+Ejercicio 1. Inserción de documentos
+Se realizó la inserción de documentos en la colección vehiculos_involucrados utilizando el comando insertOne(), permitiendo agregar nuevos registros de vehículos.
 
+Ejercicio 2. Selección de documentos
+Se ejecutaron consultas mediante find() y findOne() para visualizar y recuperar información almacenada.
+
+Ejercicio 3. Actualización de documentos
+Se utilizaron consultas updateOne() para modificar valores existentes dentro de los documentos.
+
+Ejercicio 4. Eliminación de documentos
+Se aplicó deleteOne() para eliminar registros de prueba creados durante el desarrollo de la actividad.
+
+Ejercicio 5. Consultas con filtros
+Se realizaron búsquedas por tipo de vehículo, departamento y gravedad del accidente utilizando operadores de comparación y operadores lógicos.
+
+Ejercicio 6. Relación de colecciones
+Se implementó el operador $lookup para relacionar la colección vehiculos_involucrados con una colección auxiliar de departamentos, simulando una operación JOIN.
+
+Ejercicio 7. Consultas de agregación
+Se desarrollaron consultas para:
+
+Contar documentos.
+Calcular la cantidad de accidentes por tipo de vehículo.
+Calcular la cantidad de accidentes por departamento.
+Obtener el promedio de edad de los vehículos involucrados.
+Estas operaciones fueron implementadas mediante countDocuments(), $group, $sum y $avg.
